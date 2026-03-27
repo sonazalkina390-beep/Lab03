@@ -31,9 +31,9 @@ namespace Lab03
                 return;
             }
 
-            if (n < 2 || n > 1_000_000)
+            if (n < 2 || n > 100_000)
             {
-                MessageBox.Show("Число должно быть в диапазоне [2; 1 000 000].", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Число должно быть в диапазоне [2; 100 000].", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             try
